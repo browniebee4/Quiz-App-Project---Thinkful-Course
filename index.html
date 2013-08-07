@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Quiz App</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap-responsive.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+        <script type="text/javascript" src="js/quiz.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+          <header>
+            <h1>Universe Quiz</h1>
+            <h3>Do you remember elementary school science?</h3>
+          </header>
+
+          <div class="row-fluid">
+            <div id="main" class="span12">
+                <p></p>
+                <br>
+                <p id="quizQuest" class="question"> 
+                    What is the closest planet to the sun?
+                </p>
+                <div class="span3">
+                    <form>
+                        <fieldset id="mainSec">
+                            <label class="radio"><input type="radio" data-ans="0" name="check">Mercury</label>
+                            <label class="radio"><input type="radio" data-ans="1" name="check">Mars</label>
+                            <label class="radio"><input type="radio" data-ans="2" name="check">Earth</label>
+                            <label class="radio"><input type="radio" data-ans="3" name="check">Saturn</label>
+                        </fieldset>
+                    </form>
+                    <button id="submit" class="btn btn-danger">Submit</button>
+                    <button id="review" class="btn btn-success">See How You Did!</button>
+                </div>         
+            </div><!--main-->
+          </div><!--row-fluid-->
+          <div id="revSection" class="row-fluid">
+             <button id='restart' class='btn btn-large btn-primary' type='button'>Restart Quiz</button>        
+          </div><!--row-fluid-->
+
+        </div><!--container-fluid-->
+    </body>
+
+
+
+</html>

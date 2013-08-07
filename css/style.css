@@ -1,0 +1,108 @@
+body {
+	background: url('../img/foreground.png') 5% 5%, url('../img/midground.png') 50% 50%, url('../img/background.png') 90% 110%;
+	-webkit-animation: star 250s linear infinite;
+    -moz-animation: star 250s linear infinite;
+    -o-animation: star 250s linear infinite;
+    -ms-animation: star 250s linear infinite;
+    animation: star 250s linear infinite;
+}
+
+@keyframes star {
+	0% {background-position: 0px 0px,0px 0px,0px 0px;}
+	100% {background-position: 5000px 0px, 3000px 0px, 2000px 0px;}
+}
+@-webkit-keyframes star {
+	0% {background-position: 0px 0px,0px 0px,0px 0px;}
+	100% {background-position: 5000px 0px, 3000px 0px, 2000px 0px;}
+}
+@-moz-keyframes star {
+	0% {background-position: 0px 0px,0px 0px,0px 0px;}
+	100% {background-position: 5000px 0px, 3000px 0px, 2000px 0px;}
+}
+@-ms-keyframes star {
+	0% {background-position: 0px 0px,0px 0px,0px 0px;}
+	100% {background-position: 5000px 0px, 3000px 0px, 2000px 0px;}
+}
+@-o-keyframes star {
+	0% {background-position: 0px 0px,0px 0px,0px 0px;}
+	100% {background-position: 5000px 0px, 3000px 0px, 2000px 0px;}
+}
+
+div.container {
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+}
+
+header {
+	margin: 2%;
+}
+/** Main Content **/
+#main {
+	margin-top: 3%;
+	text-align: left;
+	padding: 3% 0 3% 10.64%;
+	font-size: 25px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+	-ms-border-radius: 10px;
+	border-radius: 10px;
+	background-color: rgba(255,255,255,0.2);
+}
+
+#quizQuest {
+	margin-bottom: 30px;
+	color: yellow;
+}
+
+#mainSec label {
+	font-size: 18px;
+}
+
+/** Review Section **/
+#review {
+	display: none;
+}
+
+.wrong, .right {
+	display: none;
+	margin-right: 10px;
+	font-weight: bold;
+	color: red;
+}
+
+.right {
+	color: green;
+}
+
+#revSection {
+	display: none;
+	text-align: left;
+	padding-left: 10.64%;
+	font-size: 18px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+	-ms-border-radius: 10px;
+	border-radius: 10px;
+	background-color: rgba(255,255,255,0.2);
+}
+
+#revSection p{
+	margin-top: 20px;
+	color: yellow;
+}
+
+#revSection p.revQuest {
+	text-decoration: underline;
+	color: #ff4500;
+}
+
+#revButton {
+	margin-left: 10px;
+}
+
+#rightAns {
+	color: #4682b4;
+}
